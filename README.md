@@ -1,80 +1,72 @@
-📊 Automated-USA-Financial-Data-Dashboard-Insights
+📊 Automated Financial Data Processing & Analytics Dashboard
 
-🚀 Project Overview
+This project provides a comprehensive automation of the US Government’s financial survey pipeline using Python, Power Automate, and Power BI.
+It eliminates manual data handling by streamlining file ingestion, consolidation, cleaning, and visualization, enabling faster, error-free, and cost-saving insights.
 
-This project automates the end-to-end financial data pipeline for the US Government’s survey program.
+🧾 Project Context
 
-Every day, ~25 financial survey files are received via email at 3 PM, which must be consolidated, cleaned, analyzed, and transformed into a Power BI dashboard by 8 PM.
+25+ financial survey files received daily at 3 PM via Outlook
+
+Must be consolidated, cleaned, and analyzed
+
+Final Power BI dashboard delivered by 8 PM
 
 ⚠️ Challenges Before Automation
 
-⏳ Manual download, merging, and cleaning of ~25 files
+⏳ Manual processing of ~25 files (avg. 5 hrs/day)
 
-🕒 ~5 hours daily processing time
+❌ High chances of human error
 
-❌ Frequent errors in data handling
+💸 $12,000/month additional hiring cost
 
-💰 $12,000/month additional hiring cost
+✅ Automated Solution
 
-✅ My Solution
+📥 Outlook + Power Automate → Email ingestion & file extraction
 
-📥 Automated file ingestion from Outlook using Power Automate
+🐍 Python (pandas, numpy, seaborn) → Data cleaning, merging, validation
 
-🐍 Data consolidation, cleaning, and validation with Python (pandas) in Google Colab
+🌐 API Integration → Additional financial datasets
 
-🌐 API integration for supplemental financial data
-
-📊 Power BI dashboard for real-time KPIs & insights
+📊 Power BI Dashboard → Automated, real-time reporting
 
 🛠 Tech Stack
 
-Python → pandas, numpy, matplotlib, seaborn (data cleaning, transformation, analysis)
+Python → pandas, numpy, matplotlib, seaborn
 
-Google Colab → cloud-based notebooks for dev & collaboration
+Google Colab → Cloud-based dev & collaboration
 
-Outlook + Power Automate → email automation & daily ingestion
+Outlook + Power Automate → File ingestion automation
 
-API Integration → supplemental financial data
+API Integration → External data enrichment
 
-Power BI → dashboard & visualization
+Power BI → Interactive dashboards & KPIs
 
 📈 Key Features
 
-✔ End-to-End Automation – From email ingestion → dashboard update
-✔ Error Reduction – 90% fewer data issues
-✔ Time Savings – 5 hrs → 45 mins
-✔ Cost Savings – $12,000/month manual workload eliminated
-✔ Business Insights – Actionable recommendations for credit strategy
+⚡ End-to-End Automation (email → dashboard)
 
-📊 Dashboard Insights
+🛡 90% Error Reduction in data handling
 
-The Power BI Dashboard provides:
+⏳ Time Savings – 5 hrs → 45 mins
 
-📌 Average Annual Income
+💰 $12,000/month cost savings
 
-📌 Average Monthly Balance
+📊 Actionable credit strategy insights
 
-📌 Average Credit Utilization
+📊 Dashboard Highlights
 
-📌 Average Payment Delays
+📌 Average Annual Income, Monthly Balance, Credit Utilization
 
-📌 Age Demographics Distribution
+📌 Payment Delays & Demographic Distributions
 
-📌 Credit Score Segmentation by Age Groups:
+📌 Credit Score Segmentation (Teen, Young Adult, Old Adult, 36–45, 46+)
 
-Teen (14–18)
+📈 Age vs Credit Limit Regression
 
-Young Adult (19–25)
+💳 Credit Mix & Loan Popularity
 
-Old Adult (26–35)
+🎯 Customer LTV Scoring & Targeted Offers
 
-Old1 (36–45)
-
-Old2 (46+)
-
-📈 Age vs Credit Limit Changes (Regression Analysis)
-
-💳 Payment Behavior by Credit Mix
 📐 LTV Formula
 LTV
 =
@@ -108,6 +100,7 @@ Avg Amount Invested
 Avg Monthly Balance
 )
 LTV=(0.3×Avg Annual Income)−(0.15×Avg Payment Delay)+(0.4×Avg Credit Score (mapped))+(0.075×Avg Amount Invested)+(0.075×Avg Monthly Balance)
+
 Credit Score Mapping
 
 🟢 Good = 3
@@ -118,25 +111,16 @@ Credit Score Mapping
 
 🔴 Bad = 0
 
-🎁 LTV-Based Offers
-
-LTV > 80,000 → 30% off + Home Loan @ 4%
-
-60,000–80,000 → 15% off + $10,000 Gift Hampers
-
-50,000–60,000 → Any Loan @ 5% Interest
-
 🏆 Impact & Results
 
 ⏳ 80% faster reporting → 5 hrs → 45 mins
 
-💰 $12,000/month savings in labor costs
+💰 $12,000/month savings
 
 📉 90% fewer manual errors
 
 📊 Real-time insights for smarter credit strategies
 
 🎯 Targeted promotions with LTV-based segmentation
-🏦 Loan Type Popularity (Loan Count Visualization)
 
-🎯 Customer LTV Scoring by Age Cohort
+✨ This project proves how automation + analytics can transform financial reporting & decision-making.
