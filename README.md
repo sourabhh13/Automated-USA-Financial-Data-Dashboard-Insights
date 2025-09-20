@@ -1,4 +1,4 @@
-📊 Automated Financial Data Processing & Analytics Dashboard
+📊 Automated-USA-Financial-Data-Dashboard-Insights
 
 🚀 Project Overview
 
